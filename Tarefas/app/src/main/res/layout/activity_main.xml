@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txt_tarefas_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarefas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- EditText para Nome da Tarefa -->
+    <EditText
+        android:id="@+id/edt_tarefa_nome"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Nome da Tarefa"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tarefas_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- EditText para Descrição da Tarefa -->
+    <EditText
+        android:id="@+id/edt_tarefa_descricao"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Descrição da Tarefa"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/edt_tarefa_nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Botão Salvar -->
+    <Button
+        android:id="@+id/btn_salvar_tarefa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Salvar Tarefa"
+        app:layout_constraintTop_toBottomOf="@+id/edt_tarefa_descricao"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_limpar_tarefa"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Botão Limpar -->
+
+    <!-- Botão Ver Lista de Tarefas -->
+    <Button
+        android:id="@+id/btn_limpar_tarefa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Limpar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_salvar_tarefa"
+        app:layout_constraintTop_toBottomOf="@+id/edt_tarefa_descricao" />
+
+    <Button
+        android:id="@+id/btn_ver_lista_tarefas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:enabled="false"
+        android:text="Ver Lista de Tarefas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_salvar_tarefa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
