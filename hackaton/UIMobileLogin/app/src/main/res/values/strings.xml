@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UI</string>
+    <string name="btn_texto">Cadastrar</string>
+    <string name="sem_conta">Ver Lista de Contatos</string>
+</resources>
