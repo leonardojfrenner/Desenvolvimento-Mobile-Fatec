@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285755916044",
+    "project_id": "apploja-eceb9",
+    "storage_bucket": "apploja-eceb9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285755916044:android:d837ea0139b045b655d329",
+        "android_client_info": {
+          "package_name": "br.edu.fatec.apploja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOR6w9OUrExcm16Zj43vaNpITJcRWjmhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
