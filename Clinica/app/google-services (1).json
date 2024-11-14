@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "534976763756",
+    "project_id": "clinicamedica-4bc4f",
+    "storage_bucket": "clinicamedica-4bc4f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534976763756:android:2b3911ccd5535e85edc549",
+        "android_client_info": {
+          "package_name": "br.fatec.clinica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxPsU3AJYPx49QvFzHqmmbQdCzGpXGuTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

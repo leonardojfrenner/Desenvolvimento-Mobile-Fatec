@@ -1,0 +1,1 @@
+data class Paciente( val nome: String, val email: String, val senha: String)
